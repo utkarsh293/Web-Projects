@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#background{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 19, 41);
+}
+#timer{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 90%;
+    height: 50%;
+    /* background-color: red; */
+}
+
+.slots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 10px;
+    width: 80%;
+    height: 300px;
+    font-size: 80px;
+    font-weight: 500;
+    /* background-color: red; */
+    border-radius: 20px;
+    border: 5px solid black
+}
+
+.slots h1{
+    font-weight: 500;
+    letter-spacing: 20px;
+    font-size: 15px;
+    margin-right: -20px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#day{
+    background-color: #e74c3c;
+    border-color: #fa8e82;
+    font-size: 50px;
+}
+
+#hours{
+    font-weight: 800;
+    font-size: 80px;
+    background-color: #3498db;
+    border-color: #8ad0ff;
+}
+
+#minutes{
+    font-weight: 800;
+    background-color: #2ecc71;
+    border-color: #94ffc1;
+}
+
+#seconds{
+    font-weight: 800;
+    background-color: #f39c12;
+    border-color: #f5c67b;
+}
+
+#timer h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+#timer h3{
+    position: absolute;
+    top: 50%;
+    right: 23%;
+    transform: translate(-50% ,-50%);
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+#timer h5{
+    position: absolute;
+    top: 53%;
+    left: 25%;
+    transform: translate(-50% ,-50%);
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+}

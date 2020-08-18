@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+#top{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    background-color: salmon;
+}
+
+#bottom{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+
+#first{
+    width: 35%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);
+}
+
+#first i{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    font-size: 10px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#second{
+    width: 45%;
+    height: 100%;
+    background-color: orange;
+}
+
+#secndtop{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(44, 23, 112);
+}
+
+#secndbtm{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: rgb(26, 11, 75);
+}
+
+
+#secndtopleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    padding: 0 50px;
+    color: #fff;
+    background-color: rgb(60, 35, 141);
+}
+
+#secndtopleft input{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+#secndtopleft h5{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#secndtopright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    color: #fff;
+    background-color: rgb(44, 23, 112);
+}
+
+#fb{
+    margin: 0 20px;
+}
+
+#btmnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    background-color: transparent;
+}
+
+#btmnav #icon{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+}
+#maintext{
+    position: absolute;
+    width: 80%;
+    bottom: 2%;
+    left: 2%;
+    /* height: 400px; */
+    color: #fff;
+    /* background-color: yellow; */
+}
+
+#maintext h5{
+    font-family: 'PlayFair Display';
+}
+
+#maintext h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: "PlayFair Display";
+}
+
+#maintext p{
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#maintext a{
+    color: #fff;
+    /* background-color: red; */
+}
+
+#third{
+    width: 20%;
+    height: 100%;
+    background-color: rebeccapurple;
+}

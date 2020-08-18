@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#back{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+}
+.elem{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    
+}
+#a{
+   background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#b{
+    background-size: cover;
+    background-position: center;
+   background-image: url(https://images.unsplash.com/photo-1552255349-450c59a5ec8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+}
+#c{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1558035579-a10d04acf787?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+}
+
+.elem button{
+    width: 170px;
+    height: 60px;
+    margin-top: 650px;
+    border: 1.3px solid black;
+    background-color: transparent;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    letter-spacing: 12px;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 150px;
+    text-transform: lowercase;
+    font-size: 22px;
+    
+}
+#b:hover{
+    transform: scale(1.2);
+}
+.elm:nth-child(2):hover{
+    transform: scale(1.2);
+}
+.elm:nth-child(3):hover{
+    transform: scale(1.2);
+}
+#a:hover{
+    transform: scale(1.2);
+}
+.elm:nth-child(2):hover{
+    transform: scale(1.2);
+}
+.elm:nth-child(3):hover{
+    transform: scale(1.2);
+}
+#c:hover{
+    transform: scale(1.2);
+}
+.elm:nth-child(2):hover{
+    transform: scale(1.2);
+}
+.elm:nth-child(3):hover{
+    transform: scale(1.2);
+}
